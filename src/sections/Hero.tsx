@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 import heroimg from "../assets/images/images_beauty/cobbles-gallery-2-384x290.jpg";
 import { FaLocationDot } from "react-icons/fa6";
 import { MdOutlinePhoneAndroid } from "react-icons/md";
