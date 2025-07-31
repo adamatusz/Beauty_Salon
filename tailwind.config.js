@@ -8,7 +8,8 @@ export default {
    extend: {
     colors: {
       themerose400: '#EDB2BA',
-      themeBgFromLogos: '#F5F4ED'
+      themeBgFromLogos: '#F5F4ED',
+      themeBgFromFooterImg: '#F1EDEE',
     }
    },
   },
