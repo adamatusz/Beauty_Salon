@@ -41,6 +41,7 @@ const Services = () => {
 						<img
 							data-aos='zoom-in'
 							data-aos-delay='200'
+							className="rounded-xl"
 							src={servicesimg}
 							alt=''
 						/>
