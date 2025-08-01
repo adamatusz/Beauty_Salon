@@ -1,6 +1,9 @@
 import footimg from "../assets/images/footer-img.jpg";
 import { FaFacebook } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
+import { Link } from "react-scroll";
+import { FaArrowUp } from "react-icons/fa6";
+import "aos/dist/aos.css";
 
 const Footer = () => {
 	return (
@@ -16,7 +19,9 @@ const Footer = () => {
 					className='w-full md:w-[70%] lg:w-[60%] xl:w-[50%] px-4 md:px-0 md:ml-10
                             flex flex-col md:flex-row justify-between items-center md:items-start text-center md:text-left gap-6'>
 					<section className='flex flex-col gap-4 items-center md:items-start text-center md:text-left'>
-						<h3 className='text-2xl font-semibold text-gray-800'>Znajdź nas:</h3>
+						<h3 className='text-2xl font-semibold text-gray-800'>
+							Znajdź nas:
+						</h3>
 						<div className='flex gap-4 text-5xl'>
 							<a
 								href='https://www.facebook.com/profile.php?id=100094649514995&ref=_xav_ig_profile_page_web#'
@@ -67,6 +72,15 @@ const Footer = () => {
 					</section>
 				</div>
 			</footer>
+			<div
+				data-aos='slide-right'
+				data-aos-delay='200'
+				id='icon-box'
+				className='p-4 bg-themerose400 rounded-full cursor-pointer fixed lg:bottom-12 bottom-6 right-6 lg:right-6'>
+				<Link to='hero' spy={true} offset={-100} smooth={true}>
+					<FaArrowUp className='size-8 text-themeBgFromLogos' />
+				</Link>
+			</div>
 		</>
 	);
 };

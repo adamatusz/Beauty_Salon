@@ -19,7 +19,7 @@ const Gallery = () => {
 	}, []);
 	return (
 		<>
-			<section className='w-full flex flex-col md:px-20 px-10 h-fit pb-[300px] py-20 justify-center items-center gap-16 bg-themeBgFromLogos -mb-[200px]'>
+			<section id='gallery' className='w-full flex flex-col md:px-20 px-10 h-fit pb-[300px] py-20 justify-center items-center gap-16 bg-themeBgFromLogos -mb-[200px]'>
 				<h1 className='text-6xl text-themerose400 font-bold text-center'>
 					Doświadczenie najlepszym wyborem
 					<br />
@@ -33,7 +33,7 @@ const Gallery = () => {
 							data-aos-delay='200'
 							src={gal1}
 							alt='clean face after and before treatment'
-							className='rounded-xl w-[400px] h-[300px]'
+							className='rounded-xl w-[400px] h-[300px] object-position-center object-cover'
 						/>
 						<img
 							data-aos='zoom-out'
@@ -46,7 +46,7 @@ const Gallery = () => {
 							data-aos='zoom-out'
 							data-aos-delay='200'
 							src={gal3}
-							alt='clean face after and before treatment'
+							alt='clean face after and before treatment object-cover'
 							className='rounded-xl w-[400px] h-[300px]'
 						/>
 						<img
