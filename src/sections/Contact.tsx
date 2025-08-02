@@ -1,5 +1,4 @@
 import { useEffect } from "react";
-import contactimg from "../assets/images/contactimg2.jpg";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -17,11 +16,23 @@ const Contact = () => {
 			<section
 				id='contact'
 				className='w-full h-fit grid grid-cols-1 lg:grid-cols-2 justify-center items-center bg-themeBgFromLogos'>
-				<div
-					data-aos='zoom-in'
-					id='img-box'
-					className='w-full bg-cover bg-center h-[700px]'
-					style={{ backgroundImage: `url(${contactimg})` }}></div>
+				<section 
+					data-aos='zoom-in' 
+					className="pb-5 flex flex-col items-center justify-center w-full h-[50hv] p-4 lg:p-0">
+					<div className="flex flex-col items-center w-full"> 
+						<p className="text-4xl lg:text-5xl font-bold py-4 text-gray-400 text-center">Mapa dojazdu</p> 
+						<div className="relative w-full max-w-2xl" style={{ paddingTop: '75%' }}>
+							<iframe
+								src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2538.1086929122425!2d19.434361976224622!3d50.494934784160215!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471723bc78965d6f%3A0x1a0648c583dc93ed!2sZaparkowa%2058A%2C%2042-400%20Zawiercie!5e0!3m2!1spl!2spl!4v1754122661955!5m2!1spl!2spl"
+								allowFullScreen={true}
+								loading="lazy"
+								referrerPolicy="no-referrer-when-downgrade"
+								className="absolute top-0 left-0 w-full h-full border-0"
+							></iframe>
+						</div>
+					</div>
+				</section>
+			
 				<div
 					id='form-box'
 					className='p-16 flex flex-col justify-center items-center gap-12 w-full h-[700px]'>

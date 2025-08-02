@@ -7,9 +7,7 @@ const Header = () => {
 	const toggleMenu = () => {
 		setIsMenuOpen(!isMenuOpen);
 	};
-	const closeMenu = () => {
-		setIsMenuOpen(false);
-	};
+	
 	const navItems = [
 		{ name: "hero", to: "Witaj" },
 		{ name: "about", to: "O Nas" },
@@ -17,7 +15,7 @@ const Header = () => {
 		{ name: "gallery", to: "Galeria" },
 		{ name: "testimonial", to: "Opinie" },
 		{ name: "pricing", to: "Cennik" },
-		{ name: "contact", to: "Kontact" },
+		{ name: "contact", to: "Kontakt" },
 	];
 	return (
 		<>
