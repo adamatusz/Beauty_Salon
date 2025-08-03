@@ -38,7 +38,7 @@ const Header = () => {
 					{navItems.map(({ name, to }) => (
 						<Link
 							key={name}
-							className='text-themeBgFromFooterImg uppercase font-semibold cursor-pointer p-3 rounded-lg hover:bg-gray-400 hover:text-themeBgFromLogos text-2xl'
+							className='text-themeBgFromFooterImg uppercase font-semibold cursor-pointer p-3 rounded-lg hover:bg-gray-400 hover:text-themeBgFromLogos text-1.5xl'
 							to={name}
 							spy={true}
 							smooth={true}
