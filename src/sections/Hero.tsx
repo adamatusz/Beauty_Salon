@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import logo from "../assets/images/logo.png";
 import heroimg from "../assets/images/wetransfer/image00002.jpg";
 import { FaLocationDot } from "react-icons/fa6";
 import { MdOutlinePhoneAndroid } from "react-icons/md";
@@ -29,6 +30,12 @@ const Hero = () => {
 				<div
 					id='content-box'
 					className='flex flex-col justify-center items-start gap-10'>
+					<img
+						data-aos='zoom-in'
+						src={logo}
+						alt='AMKOSMETOLOGIA logo' 
+						className='w-full h-[900px] mb-4'
+					/>
 					<h1
 						data-aos='zoom-in'
 						className='text-2xl text-themerose400 font-semibold'>
@@ -85,7 +92,7 @@ const Hero = () => {
 				<div data-aos='zoom-in' id='image-box' className='md:w-[50%] w-full'>
 					<img
 						src={heroimg}
-						alt='women with close left eye'
+						alt='women in a beauty salon'
 						className='rounded-xl w-full md:h-[1250px] h-[900px] object-cover'
 					/>
 				</div>
