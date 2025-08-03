@@ -34,7 +34,7 @@ const Hero = () => {
 						data-aos='zoom-in'
 						src={logo}
 						alt='AMKOSMETOLOGIA logo' 
-						className='w-full h-[900px] mb-4'
+						className='w-full h-[600px] mb-0 object-cover'
 					/>
 					<h1
 						data-aos='zoom-in'
@@ -93,7 +93,7 @@ const Hero = () => {
 					<img
 						src={heroimg}
 						alt='women in a beauty salon'
-						className='rounded-xl w-full md:h-[1250px] h-[900px] object-cover'
+						className='rounded-xl w-full md:h-[1250px] h-[850px] object-cover'
 					/>
 				</div>
 			</section>

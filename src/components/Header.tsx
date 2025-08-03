@@ -2,7 +2,7 @@ import { Link } from "react-scroll";
 import { FaXmark, FaBars } from "react-icons/fa6";
 import { useState } from "react";
 
-import icon from "../assets/images/favicon2.ico";
+// import icon from "../assets/images/favicon2.ico";
 
 const Header = () => {
 	const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -24,11 +24,11 @@ const Header = () => {
 			<nav className='flex justify-between items-center gap-4 bg-themerose400 lg:px-10 px-4 py-6 sticky top-0 z-30 border-[8px] border-themeBgFromLogos rounded-3xl'>
 				<div id='logo'>
 					<h1 className='text-themeBgFromFooterImg font-bold text-5xl italic flex items-center'>
-						<img
+						{/* <img
 							src={icon}
 							alt='icon'
-							className='w-20 h-20 mr-2 inline-block'
-						/>
+							className='w-10 h-10 mr-2 inline-block'
+						/> */}
 						<div>
 							Salon <span className='text-gray-400'>Piękności</span>
 						</div>
