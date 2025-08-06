@@ -7,6 +7,7 @@ import Gallery from "./sections/Gallery";
 import Testimonial from "./sections/Testimonial";
 import Contact from "./sections/Contact";
 import Footer from "./components/Footer";
+import SocialSidebar from "./components/SocialSidebar";
 
 // Main App component that composes all sections and components
 // This is the entry point of the application
@@ -22,6 +23,7 @@ import Footer from "./components/Footer";
 export const App = () => {
 	return (
 		<>
+			<SocialSidebar />
 			<Header />
 			<Hero />
 			<WhyChoose />
